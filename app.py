@@ -57,3 +57,20 @@ barra_de_mensagem.send_keys(mensagem)
 
 #agora p/ enviar
 barra_de_mensagem.send_keys(Keys.RETURN) #RETURN é o enter do teclado
+
+#mapeie o endereço local do seu doc
+caminho_documento = '' #endeço do documento ex 'C:/user/meusuario/Documentos/meudocumento.pdf'
+
+#é possível tbm enviar arquivos
+#procura o botão attach "+"
+botao_anexos = driver.find_element(By.XPATH, '//div[@title="Attach"]')
+botao_anexos.click()
+
+
+#enviar o documento
+botao_documentos = driver.find_element(By.XPATH, '//input[@accept="*" and @type="file"]')
+botao_documentos.send_keys(caminho_documento)
+
+#clicar no botao de enviar
+botao_enviar = driver.find_element(By.XPATH, '//div[@aria-label="Enviar"]')
+botao_enviar.click()

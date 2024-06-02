@@ -10,9 +10,9 @@ This repository contains the code and instructions to create a bot that interact
 ## Usage example
 
 Get in the directory folder (whatsappbot)
-If you are using Linux, get in the desired directory by using the command "cd + directory .
+If you are using Linux, get in the desired directory by using the command "cd + directory".
 
-Now, just start the .py file.
+Now, run the .py file.
 
 ```sh
 python3 app.py
@@ -29,7 +29,7 @@ python3 app.py
 
  Haniel Rolemberg – victorhanielbusiness@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT  license. See ``LICENSE`` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/hanielrolemberg/)
 
